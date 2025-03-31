@@ -1,0 +1,5 @@
+Filtering by Email:
+We use WHERE user_email LIKE '%@gmail.com' to look through all the orders and pick only those where the email ends with @gmail.com. It’s like saying, "Show me the orders from users who have Gmail addresses."
+
+Sorting by Date:
+With ORDER BY order_date DESC, we tell the database to organize the orders so that the newest ones come first. "DESC" means "descending order", so we’re starting with the latest order date and working backwards.
